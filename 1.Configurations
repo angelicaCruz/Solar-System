@@ -1,4 +1,4 @@
-#Configurations
+#Configuration: MeshExpertCenter
 
 - Download MeshExpert Center and install it. 
   Once installed, a short cut will be created on 
@@ -12,21 +12,33 @@
   If you don't have an account, create one and you will be give a 
   trial license. 
   You may also contact (add DataMeshContact).
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/26377727/31697686-c2bc7fb4-b3eb-11e7-9a55-31c93c86ad5b.png" width ="600">
+ </p>
 
 - To upload your licence, click **Upload license**
 - Find the file containing the license and press Open.
   You will obtain a panel similar to the one below. 
-  ss5
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26377727/31697691-c75448b8-b3eb-11e7-9471-bf217e49a47f.png" width ="600">
+</p>
+  
 - You now have an active workstation with its own IP address.
 - Leave this window open as we will need it later. 
 
-##Configuration Files
+##Configuration: Files
 - Go to Unity. 
 - Find **Assets->Streaming Assets**.
 - Open *MEConfigNetwork.ini** file. 
-ss6
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26377727/31697695-cf6729c6-b3eb-11e7-9730-5416773c6dbd.png" width ="600">
+</p>
+
 - Edit file and make sure that **Server_Host** value is 
   the same as the **Service IP** provided by MeshExpert Center.
 - Add **Server_Port = 8848** if your file doesn't have it.
-ss7
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26377727/31697727-f56ad690-b3eb-11e7-9b9e-31e5343321eb.png" width ="600">
+</p>
+
 - Save the changes and close file.
