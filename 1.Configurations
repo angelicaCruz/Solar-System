@@ -1,0 +1,32 @@
+#Configurations
+
+- Download MeshExpert Center and install it. 
+  Once installed, a short cut will be created on 
+  Desktop.
+  MeshExpert Center turns your computer into server that will let 
+  devices "talk" to each other. 
+  
+- Open MeshExpert Center. 
+  If this is your first time, sign-in is required. You will also 
+  need licence(trial or offline) provided by DataMesh.
+  If you don't have an account, create one and you will be give a 
+  trial license. 
+  You may also contact (add DataMeshContact).
+
+- To upload your licence, click **Upload license**
+- Find the file containing the license and press Open.
+  You will obtain a panel similar to the one below. 
+  ss5
+- You now have an active workstation with its own IP address.
+- Leave this window open as we will need it later. 
+
+##Configuration Files
+- Go to Unity. 
+- Find **Assets->Streaming Assets**.
+- Open *MEConfigNetwork.ini** file. 
+ss6
+- Edit file and make sure that **Server_Host** value is 
+  the same as the **Service IP** provided by MeshExpert Center.
+- Add **Server_Port = 8848** if your file doesn't have it.
+ss7
+- Save the changes and close file.
